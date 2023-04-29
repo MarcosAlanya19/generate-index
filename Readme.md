@@ -14,5 +14,7 @@ Cabe mencionar que al momento de ejecutar **node generate src/components**, la r
 ### **OBSERVACIONES**
 
 - Si tienes complicaciones para correr el codigo, capaz sea por module que este usando, en el codigo, yo lo digite con **`import`**, pero si tu usas require, solo cambia las primeras lineas, por las siguientes:
-{const fs = require('fs');
-const path = require('path');}
+```sh
+const fs = require('fs');
+const path = require('path');
+```
