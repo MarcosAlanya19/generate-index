@@ -10,3 +10,9 @@ descargas el **`generate.js`**, lo colocas en la raiz de tu proyecto y luego lo 
 ![](img/img1.jpeg)
 
 Cabe mencionar que al momento de ejecutar **node generate src/components**, la ruta de la carpeta donde quieras ejecutar el index es customizable, **node generate 'aca colocas la ruta de tu carpeta'***
+
+### **OBSERVACIONES**
+
+- Si tienes complicaciones para correr el codigo, capaz sea por module que este usando, en el codigo, yo lo digite con **`import`**, pero si tu usas require, solo cambia las primeras lineas, por las siguientes:
+{const fs = require('fs');
+const path = require('path');}
